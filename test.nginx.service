@@ -1,0 +1,8 @@
+[Unit]
+Description=Тестовый юнит для ТЗ мониторинга процесса nginx
+
+[Service]
+ExecStart=/opt/testscript.sh
+User=root
+Group=root
+
